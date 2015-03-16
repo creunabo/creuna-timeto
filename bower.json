@@ -4,7 +4,7 @@
   "authors": [
     "Bo Petersen <bo.petersen@creuna.dk>"
   ],
-  "main": "creuna.timeTo.js",
+  "main": "creuna.timeTo.js, timeto.css",
   "description": "Timer Countdown",
   "license": "MIT",
   "homepage": "www.creuna.dk",
