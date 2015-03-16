@@ -1,0 +1,18 @@
+{
+  "name": "angular-timeto",
+  "version": "0.0.1",
+  "authors": [
+    "Bo Petersen <bo.petersen@creuna.dk>"
+  ],
+  "description": "Timer Countdown",
+  "license": "MIT",
+  "homepage": "www.creuna.dk",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
