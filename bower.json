@@ -8,7 +8,6 @@
   "description": "Timer Countdown",
   "license": "MIT",
   "homepage": "www.creuna.dk",
-  //"private": true,
   "ignore": [
     "**/.*",
     "node_modules",
