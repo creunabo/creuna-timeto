@@ -236,7 +236,6 @@
                     }
 
                     thtml = (data.displayCaptions ?
-                        //style="width:'+ Math.round(data.width*data.displayDays + marginRight + 4) +'px"
                         '<figure style="max-width:'+ Math.round((maxWidth / 3) + maxWidth) +'px">$1<figcaption>'+ dictionary[data.lang].days +'</figcaption></figure>'
                         : '$1').replace(
                             /\$1/, dhtml
