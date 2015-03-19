@@ -234,8 +234,10 @@
                     for(i = data.displayDays - 1; i > 0; i--) {
                         dhtml += i === 1 ? dhtml2.replace('">','">') : dhtml2;
                     }
+
                     thtml = (data.displayCaptions ?
-                        '<figure style="max-width:'+ maxWidth +'px">$1<figcaption>'+ dictionary[data.lang].days +'</figcaption></figure>'
+                        //style="width:'+ Math.round(data.width*data.displayDays + marginRight + 4) +'px"
+                        '<figure style="max-width:'+ Math.round((maxWidth / 3) + maxWidth) +'px">$1<figcaption>'+ dictionary[data.lang].days +'</figcaption></figure>'
                         : '$1').replace(
                             /\$1/, dhtml
                         ) + thtml;
